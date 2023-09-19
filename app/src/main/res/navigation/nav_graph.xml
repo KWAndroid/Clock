@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_alarm">
+    <fragment
+        android:id="@+id/fragment_alarm"
+        android:name="com.example.clock.Fragment.FragmentAlarm"
+        android:label="FragmentAlarm" >
+        <action
+            android:id="@+id/action_fragment_alarm_to_fragment_clock"
+            app:destination="@id/fragment_clock" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_clock"
+        android:name="com.example.clock.Fragment.FragmentClock"
+        android:label="FragmentClock" >
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_stopwatch"
+        android:name="com.example.clock.Fragment.FragmentStopwatch"
+        android:label="FragmentStopwatch" >
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_timer"
+        android:name="com.example.clock.Fragment.FragmentTimer"
+        android:label="FragmentTimer" >
+    </fragment>
+</navigation>
