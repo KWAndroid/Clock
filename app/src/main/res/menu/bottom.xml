@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/fragAlarm"
+        android:id="@+id/fragment_alarm"
         android:enabled="true"
         android:title="알람" />
     <item
-        android:id="@+id/fragClock"
+        android:id="@+id/fragment_clock"
         android:enabled="true"
         android:title="세계시각" />
     <item
-        android:id="@+id/fragStopwatch"
+        android:id="@+id/fragment_stopwatch"
         android:enabled="true"
         android:title="스톱워치" />
     <item
-        android:id="@+id/fragTimer"
+        android:id="@+id/fragment_timer"
         android:enabled="true"
         android:title="타이머" />
 </menu>
