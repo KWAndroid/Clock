@@ -10,14 +10,13 @@ import com.example.clock.databinding.FragmentTimerBinding
 
 class FragmentTimer : Fragment() {
 
-    lateinit var binding: FragmentTimerBinding
+   private lateinit var binding: FragmentTimerBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentTimerBinding.inflate(inflater, container, false)
-
 
         return binding.root
     }
