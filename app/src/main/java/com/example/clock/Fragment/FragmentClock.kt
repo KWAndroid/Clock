@@ -5,12 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.clock.databinding.FragmentAlarmBinding
 import com.example.clock.databinding.FragmentClockBinding
 
 class FragmentClock : Fragment() {
 
-    lateinit var binding: FragmentClockBinding
+    private lateinit var binding: FragmentClockBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -18,8 +17,6 @@ class FragmentClock : Fragment() {
     ): View? {
         binding = FragmentClockBinding.inflate(inflater, container, false)
 
-
         return binding.root
     }
-
 }

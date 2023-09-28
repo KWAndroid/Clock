@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Clock</string>
+
+    <string name="hour_text">시간</string>
+    <string name="minute_text">분</string>
+    <string name="second_text">초</string>
 </resources>
