@@ -4,4 +4,11 @@
     <string name="hour_text">시간</string>
     <string name="minute_text">분</string>
     <string name="second_text">초</string>
+    
+    <string name="colon_text">:</string>
+
+    <string name="format" formatted="true">%02d</string>
+
+    <string name="add_timer">기본 타이머 추가</string>
+    <string name="edit_timer">기본 타이머 편집</string>
 </resources>
