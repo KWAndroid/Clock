@@ -9,10 +9,17 @@
         android:name="com.example.clock.Fragment.FragmentAlarm"
         android:label="FragmentAlarm" >
         <action
-            android:id="@+id/action_fragment_alarm_to_fragment_clock"
-            app:destination="@id/fragment_clock" />
+            android:id="@+id/action_fragmentAlarm_to_fragmentAlarmAdd"
+            app:destination="@id/fragment_alarm_add" />
     </fragment>
-
+    <fragment
+        android:id="@+id/fragment_alarm_add"
+        android:name="com.example.clock.Alarm.FragmentAlarmAdd"
+        android:label="FragmentAlarmAdd" >
+        <action
+            android:id="@+id/action_fragmentAlarmAdd_to_fragmentAlarm"
+            app:destination="@id/fragment_alarm" />
+    </fragment>
     <fragment
         android:id="@+id/fragment_clock"
         android:name="com.example.clock.Fragment.FragmentClock"
