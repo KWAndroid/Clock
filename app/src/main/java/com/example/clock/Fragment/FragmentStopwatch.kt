@@ -5,8 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.clock.R
 import com.example.clock.databinding.FragmentAlarmBinding
 import com.example.clock.databinding.FragmentStopwatchBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class FragmentStopwatch : Fragment() {
 
@@ -21,5 +23,6 @@ class FragmentStopwatch : Fragment() {
 
         return binding.root
     }
+
 
 }
