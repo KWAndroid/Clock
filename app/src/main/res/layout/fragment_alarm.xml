@@ -3,9 +3,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="알람" />
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:fitsSystemWindows="true"
+        app:contentScrim="@color/purple_700"
+        app:expandedTitleGravity="center"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+        app:scrimVisibleHeightTrigger="156dp"
+        app:statusBarScrim="@android:color/transparent"
+        app:expandedTitleTextAppearance="@style/CollapsingToolbar.Expanded.Title"
+        app:collapsedTitleTextAppearance="@style/CollapsingToolbar.Collapsed.Title">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_toolbar_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:url='@{"https://picsum.photos/200/300"}'
+            android:fitsSystemWindows="true"/>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

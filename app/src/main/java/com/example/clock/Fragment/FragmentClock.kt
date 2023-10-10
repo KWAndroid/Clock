@@ -18,7 +18,6 @@ class FragmentClock : Fragment() {
     ): View? {
         binding = FragmentClockBinding.inflate(inflater, container, false)
 
-
         return binding.root
     }
 
